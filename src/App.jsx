@@ -3,7 +3,7 @@ import Navigations from "./components/Navigations";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
-function App () {
+function app () {
 
     return(
         <div>
@@ -15,4 +15,4 @@ function App () {
     )
 };
 
-export default App;
+export default app;
