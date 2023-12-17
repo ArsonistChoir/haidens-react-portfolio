@@ -3,16 +3,13 @@ import Navigations from "./components/Navigations";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
-function app () {
+function App () {
 
     return(
         <div>
-            <Header/>
-            <Navigations/>
-            <Projects/>
-            <Footer/>
+            <Header />
         </div>
     )
 };
 
-export default app;
+export default App;

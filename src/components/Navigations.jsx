@@ -19,23 +19,16 @@ function Contact() {
 
 function Navigations() {
     return (
-        <Router>
             <div>
-                <nav>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About Me</Link></li>
-                        <li><Link to="/portfolio">Portfolio</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                    </ul>
-                </nav>
-
-                <Route path="/" exact component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/portfolio" component={Portfolio} />
-                <Route path="/contact" component={Contact} />
+            <nav>
+            <ul>
+                <li><a href="#AboutMe">About Me</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#ContactMe">Contact Me</a></li>
+            </ul>
+        </nav>
+            
             </div>
-        </Router>
     );
 }
 
