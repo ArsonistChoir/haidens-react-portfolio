@@ -14,15 +14,15 @@
 
   ## Description
   
-  A portfolio of my work
+  A site to host information about me, my former projects and my resume.
   
   ## Links
   
-  Fill
+  https://github.com/ArsonistChoir/haidens-react-portfolio
   
   ## Github
   
-  Fill
+  https://github.com/ArsonistChoir
   
   ## License
   
