@@ -54,3 +54,45 @@ header {
 button, a {
     margin: 0 10px;
 }
+
+#github-link {
+  color: blue;
+}
+
+#github-link, #github-link-name {
+  font-size: larger;
+}
+
+/* Projects.css */
+
+#projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.project-card {
+  border: 1px solid #ddd; /* Border for each card */
+  padding: 20px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-card h1 {
+  margin-bottom: 10px;
+}
+
+#github-link {
+  text-decoration: none;
+  color: #0366d6; /* GitHub link color */
+}
+
+#github-link-name {
+  display: flex;
+  align-items: center;
+}
+
