@@ -6,6 +6,8 @@
 
   [Description](#description)
 
+  [Usage](#usage)
+
   [Links](#links)
 
   [Github](#github)
@@ -15,6 +17,10 @@
   ## Description
   
   A site to host information about me, my former projects and my resume.
+
+  ## Usage
+
+  Simply clone the files, open it in VS code, do "NPM I" in the terminal", and finally run "NPM run dev" in the terminal and it'll display the site.
   
   ## Links
   

@@ -6,9 +6,7 @@ function Navigations() {
     <div>
         <nav>
             <ul>
-                <li><a href="#AboutMe">About Me</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#ContactMe">Contact Me</a></li>
+                <li><a href="https://1drv.ms/b/s!AvPRzcEXL3gfpc9-Ff-3W7A2T3JNmg?e=ii5f2u">Resume</a></li>
             </ul>
         </nav> 
     </div>

@@ -1,7 +1,7 @@
 function Projects() {
     const projects = [
-        { title: "Project 1", link: "https://example.com/project1", imageSrc: "https://www.example.com/image1.jpg" },
-        { title: "Project 2", link: "https://example.com/project2", imageSrc: "https://www.example.com/image2.jpg" },
+        { title: "Trip Tix", link: "https://chart099.github.io/Bootcamp-Project-1/", imageSrc: "./src/assets/Screenshot 2023-12-17 at 21-02-25 Document.png" },
+        { title: "Review a Movie", link: "https://spooky-ghost-09826-e1fe8c97ce3e.herokuapp.com/", imageSrc: "./src/assets/Screenshot 2023-12-17 at 21-10-01 Review a Movie.png" },
         { title: "Project 3", link: "https://example.com/project3", imageSrc: "https://www.example.com/image3.jpg" },
         { title: "Project 4", link: "https://example.com/project4", imageSrc: "https://www.example.com/image4.jpg" },
     ];
