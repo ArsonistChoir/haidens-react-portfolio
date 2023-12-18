@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: darksalmon;
 }
 
 header {
@@ -33,15 +34,14 @@ header {
   }
 
   #about-me {
-    margin: 10px 50px 0;
+    margin: 10px 20px 0;
+    background-color: cornflowerblue;
+    border: 2px solid #333;
+    padding: 5px;
   }
 
   footer {
     background-color: #333;
-  }
-
-  #github-link {
-    color: cornflowerblue;
   }
 
   footer {
@@ -57,22 +57,25 @@ button, a {
 
 #github-link {
   color: blue;
+  text-decoration: none;
 }
 
 #github-link, #github-link-name {
   font-size: larger;
 }
 
-/* Projects.css */
-
 #projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
-  gap: 20px; /* Adjust the gap between cards as needed */
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: white
 }
 
 .project-card {
-  border: 1px solid #ddd; /* Border for each card */
+  border: 1px solid #ddd;
   padding: 20px;
   text-align: center;
 }
@@ -84,11 +87,6 @@ button, a {
 
 .project-card h1 {
   margin-bottom: 10px;
-}
-
-#github-link {
-  text-decoration: none;
-  color: #0366d6; /* GitHub link color */
 }
 
 #github-link-name {
